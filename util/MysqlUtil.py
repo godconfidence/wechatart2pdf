@@ -6,7 +6,7 @@ import MySQLdb
 class MysqlUtil(object):
 
     def __init__(self):
-        self.conn = MySQLdb.connect("182.92.123.81", "root", "B2WKE$K-R9V3BMEM=UM)P", "wxarticle", 3306)
+        self.conn = MySQLdb.connect("182.912.123.81", "root", "111", "wxarticle", 3306)
         self.conn.set_character_set('utf8')
         self.cur = self.conn.cursor()
     pass
